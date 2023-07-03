@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-container">
+        <h3>HOME</h3>
+        <div class="score" id="home-score">0</div>
+        <div class="add-container">
+          <button class="add-block" id="home_add-one">+1</button>
+          <button class="add-block" id="home_add-two">+2</button>
+          <button class="add-block" id="home_add-three">+3</button>
+        </div>
+      </div>
+
+      <div class="time-container">
+        <h3>TIME</h3>
+        <div class="time">
+          <span id="time-seconds">00</span>:<span id="time-tens">00</span>
+        </div>
+        <div class="time-btns">
+          <button class="time-btn" id="time-start">START</button>
+          <button class="time-btn" id="time-stop">STOP</button>
+          <button class="time-btn" id="time-reset">RESET</button>
+        </div>
+      </div>
+
+      <div class="guest-container">
+        <h3>GUEST</h3>
+        <div class="score" id="guest-score">0</div>
+        <div class="add-container">
+            <button class="add-block" id="guest_add-one">+1</button>
+            <button class="add-block" id="guest_add-two">+2</button>
+            <button class="add-block" id="guest_add-three">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
